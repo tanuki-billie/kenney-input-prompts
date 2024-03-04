@@ -1,0 +1,11 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Disinclude any assets not directly part of the addon from ZIP downloads.
+# Makes life easier.
+
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.icon.svg export-ignore
+/.icon.svg.import export-ignore
+/README.md export-ignore
